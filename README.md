@@ -21,5 +21,5 @@ config :rail, :error_reporter, RailSentry
 or only for current process.
 
 ```elixir
-Process.put(:rail, :error_reporter, RailSentry)
+Process.put(:rail_error_reporter, RailSentry)
 ```
